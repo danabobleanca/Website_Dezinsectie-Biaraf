@@ -1,0 +1,454 @@
+
+/*					INDEX				*/
+
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+header, footer, section, nav{
+	display:block;
+}
+
+body{
+	width:100%;
+	background-color:black;
+	font-family: 'Teko', sans-serif;
+
+	
+}
+#continut{
+	width:100%;
+	margin:0px auto;
+	background-color:#001900;
+	color:white;
+	font-family: 'Squada One', cursive;
+}
+
+
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	background-color:black;
+	opacity:1;
+	float:right;
+	text-align:right;
+	font-size:25px;
+	cursor:pointer;
+	display:none;
+	box-sizing:border-box;
+	margin-top:10px;
+}
+
+#fa_bar{
+	color:white;
+}
+
+#contact_social{
+	border-bottom:1px solid #001900;
+	padding:8px 10px;
+	display:flex;
+	box-sizing:border-box;
+	text-align:center;
+	width:100%;
+}
+
+#contact_social span{
+	font-size:14px;
+	flex:1;
+}
+#contact_social #adresa{
+	flex:3;
+}
+#contact_social #email{
+	flex:2;
+}
+
+#nav{
+	display:block;
+	overflow:hidden;
+	z-index:100;
+	padding:0px 0px;
+	width:100%;
+	border-bottom:1px solid #006600;
+}
+
+#logo{
+	font-size:30px;
+	width:100%;
+	text-align:center;
+	box-sizing:border-box;
+	color:#b2ffb2;
+	background-color:black;
+	padding:30px 0px;
+	
+}
+
+#nav ul{
+	flex:2;
+	display:flex;
+	flex-basis:100%;
+	box-sizing:border-box;
+	width:100%;
+	flex-wrap:wrap;
+
+}
+#nav ul li{
+	flex:1;
+	flex-wrap:wrap;
+	text-align:center;
+	list-style-type:none;
+	box-sizing:border-box;
+	padding:35px 0px;
+}
+
+	
+
+#nav ul li:hover{
+	color:white;
+	background-color:white;
+	border-top:10px solid #073815;
+	border-bottom:10px solid #073815;
+	box-shadow:inset 0px 0px 0px black;
+}
+
+#nav ul li:hover a{
+	color:black;
+}
+
+#nav ul li a{
+	text-decoration:none;
+	font-size:24px;
+	color:#b2ffb2;
+	box-sizing:border-box;
+}
+
+#logo img{
+	width:300px;
+}
+#slide{
+	width:100%;
+	height:400px;
+	box-sizing:border-box;
+	background-image:url(imagini/slider.jpg);
+	background-size:cover;
+	
+}
+
+
+#mak{
+	color:green;
+	font-size:40px;
+	font-weight:bold;
+}
+#despre_text{
+	width:50%;
+	opacity:0.8;
+	margin:0px auto;
+	padding-top:100px;
+	text-align:center;
+}
+
+#despre_text p{
+	background-color:black;
+	font-size:28px;
+	padding:30px;
+}
+
+#servicii{
+	display:flex;
+	background-color:#ededed;
+	padding:50px 100px;
+	box-sizing:border-box;
+}
+
+#servicii div{
+	flex:1;
+	text-align:center;
+	color:#898989;
+	font-size:17px;
+	box-sizing:border-box;
+	
+}
+#servicii div h2{
+	padding-top:15px;
+}
+#servicii div p{
+	padding:20px;
+}
+#servicii div img{
+	border:2px solid black;
+	border-radius:100%;
+	padding:10px;
+	box-sizing:border-box;
+}
+#deratizare, #dezinsectie{
+	border-right:1px solid #e0e0e0;
+}
+
+#servicii2{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+	color:#898989;
+	text-align:center;
+	box-sizing:Border-box;
+	
+}
+
+#deratizare_text, #dezinfectie_text{
+	background-color:#d7d7d7;
+}
+
+#dezinsectie_text{
+	background-color:#ededed;
+}
+
+#servicii2>div{
+	flex:1;
+	display:flex;
+	flex-basis:100%;
+	padding:30px;
+	box-sizing:border-box;
+}
+#servicii2 div div img{
+	width:500px;
+	 box-shadow: 15px 15px 10px black;
+}
+
+#servicii2 div div h1{
+	font-size:30px;
+	padding-top:30px;
+	padding-bottom:15px;
+	
+}
+
+#servicii2 div div a{
+	color:white;
+	text-decoration:none;
+	background-color:#001900;
+	
+}
+
+#mai_mult{
+	margin-top:50px;
+	background-color:#001900;
+	font-size:20px;
+	margin-left:200px;
+	margin-right:200px;
+	padding:10px 0px;
+}
+
+#servicii2 div div p{
+	font-size:18px;
+}
+#servicii2 div div{
+	flex-basis:50%;
+	flex:1;
+}
+
+/*			DESPRE NOI			*/
+
+#slide_deratizare{
+	width:100%;
+	height:400px;
+	box-sizing:border-box;
+	background-image:url(imagini/slider.jpg);
+	background-size:cover;
+	
+}
+
+#text_head{
+	color:green;
+	font-size:40px;
+	font-weight:bold;
+}
+#despre_text_head{
+	opacity:0.8;
+	margin:0px auto;
+	padding-top:100px;
+	text-align:center;
+}
+
+#despre_text_head p{
+	background-color:black;
+	font-size:70px;
+	padding:30px;
+}
+
+
+#despre_pagina{
+	display:flex;
+	background-color:#ededed;
+	text-align:center;
+	padding:30px 0px;
+}
+
+#despre_pagina_text{
+	flex-basis:70%;
+	color:#898989;
+	font-size:18px;
+	padding:0px 80px;
+}
+#despre_pagina_text h3{
+	color:green;
+	font-size:28px;
+	padding:20px 0px;
+}
+
+#despre_pagina_img{
+	flex-basis:30%;
+	
+}
+
+#despre_pagina_img img{
+	width:350px;
+}
+
+#adresare{
+	margin:50px 0px 0px 0px;
+	background-color:#ededed;
+	text-align:Center;
+	padding-top:20px;
+	color:#001900;
+}
+#persoane{
+	display:flex;
+	background-color:#ededed;
+	padding:50px 0px;
+	text-align:center;
+	
+	
+}
+#persoane>div{
+	flex:1;
+	padding:0px 50px;
+}
+
+#persoane div h1{
+	margin-bottom:30px;
+	background-color:#001900;
+	padding:10px 0px;
+	color:white;
+}
+#persoane div p{
+	color:#001900;
+	font-size:16px;
+}
+
+/*			DERATIZARE			*/
+
+
+
+.pagina{
+	display:flex;
+	width:100%;
+	flex-wrap:wrap;
+	color:#898989;
+	text-align:center;
+	
+}
+
+.pagina>div{
+	flex:1;
+	display:flex;
+	flex-basis:100%;
+	padding:30px;
+}
+.pagina div div img{
+	width:500px;
+	 box-shadow: 15px 15px 10px black;
+}
+
+.pagina div div h1{
+	font-size:30px;
+	padding-top:30px;
+	padding-bottom:15px;
+	
+}
+
+
+.pagina div div p{
+	font-size:18px;
+}
+.pagina div div{
+	flex-basis:50%;
+	flex:1;
+}
+
+#deratizare_text .icon_img img{
+	width:200px;
+	box-shadow:0px 0px 0px;
+}
+
+
+#servicii_deratizare div div h1{
+	color:green;
+}
+
+/*		CONTACT			*/
+
+#text_contact{
+	display:flex;
+	background-image:url(imagini/paper_bg.jpg);
+	text-align:center;
+	justify-content:space-between;
+	background-color:#e0e0e0;
+	box-shadow:0px 0px 15px 2px black;
+	padding:30px;
+	margin:50px 100px;
+	color:white;
+	box-sizing:border-box;
+}
+
+#text_contact div{
+	flex-basis:45%;
+	padding:30px;
+	box-sizing:border-box;
+	
+}
+
+
+#text_contact div h1{
+	margin-bottom:15px;
+	color:white;
+	font-size:35px;
+}
+#text_contact div p {
+	background-color:#001900;
+	margin:10px 0px;
+	padding:12px 10px;
+	font-size:20px;
+	box-shadow: inset 2px 2px 35px black;
+}
+#date_contact1 div img{
+	width:50px;
+	padding:0px;
+	
+}
+
+#date_contact1 div{
+	background-color:#001900;
+	padding:10px 0px;
+	margin-bottom:10px;
+	box-sizing:border-box;
+}
+#date_contact2 img{
+	width:400px;
+}
+
+
+#footer{
+	text-align:center;
+	padding:25px 0px;
+	color:white;
+	font-size:16px;
+}
+
+#footer a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	
+}
